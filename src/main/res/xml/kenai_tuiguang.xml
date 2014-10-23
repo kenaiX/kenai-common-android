@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceScreen
+        android:key="tuijian1"
+        android:title="melody"
+        android:summary="一个就够了！"/>
+    <PreferenceScreen
+        android:key="tuijian16"
+        android:summary="魅族专用的网络电话"
+        android:title="魅Call" />
+    <PreferenceScreen
+        android:key="tuijian13"
+        android:title="魅手势"
+        android:summary="要做最好用的手势软件"/>
+    <PreferenceScreen
+        android:key="tuijian14"
+        android:summary="魅族最经典的电量软件"
+        android:title="魅电量up" />
+    <PreferenceScreen
+        android:key="tuijian15"
+        android:title="魅拍照" />
+    <PreferenceScreen
+        android:key="tuijian10"
+        android:title="魅电量" />
+    <PreferenceScreen
+        android:key="tuijian11"
+        android:title="魅流量" />
+    <PreferenceScreen
+        android:key="tuijian9"
+        android:title="魅重拨" />
+    <PreferenceScreen
+        android:key="tuijian2"
+        android:title="kenai线控" />
+    <PreferenceScreen
+        android:key="tuijian3"
+        android:title="kenai锁屏" />
+    <PreferenceScreen
+        android:key="tuijian7"
+        android:title="kenai静音" />
+    <PreferenceScreen
+        android:key="tuijian8"
+        android:title="kenai护眼" />
+    <PreferenceScreen
+        android:key="tuijian12"
+        android:title="魅电量（简版）" />
+
+
+</PreferenceScreen>
