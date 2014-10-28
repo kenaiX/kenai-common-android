@@ -69,7 +69,7 @@ public class MZActivity {
         win.setAttributes(winParams);
     }
 
-    private static void setTranslucentStatusWithDarkStatusBarIcon(Activity activity, boolean on) {
+    public static void setTranslucentStatusWithDarkStatusBarIcon(Activity activity, boolean on) {
         Window win = activity.getWindow();
         WindowManager.LayoutParams winParams = win.getAttributes();
         int bits = WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS;

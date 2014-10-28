@@ -9,7 +9,7 @@ public class NotificationUtil {
     public static void expandNotifications(Context context) {
         Object statusbar = context.getSystemService("statusbar");
         try {
-            Method m = statusbar.getClass().getMethod("expandNotificationsPanel", null);
+            Method m = statusbar.getClass().getMethod("expandNotificationsPanel", new Class[]{});
             m.invoke(statusbar);
         } catch (Exception e) {
             e.printStackTrace();
